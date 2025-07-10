@@ -1,0 +1,27 @@
+public class Main {
+
+  public static void main(String[] args) {
+    
+    String text = "hello".toLowerCase();
+    
+    int vowelcount = 0;
+    
+    System.out.print("Vowels in the string: ");
+
+    for(int i=0; i<text.length(); i++){
+    
+    char ch = text.charAt(i);
+    
+    if("aeiou".indexOf(ch) != -1) 
+    
+    {
+    
+    System.out.print(ch + " ");
+    vowelcount++;
+    }
+    
+    }ume
+    
+    System.out.println("\nVowel count is " + vowelcount);
+  }
+}

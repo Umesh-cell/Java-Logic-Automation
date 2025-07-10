@@ -1,0 +1,19 @@
+
+public class Main {
+  public static void main(String[] args) {
+    
+    String orginal = "Level".toLowerCase();
+    String reversed =new StringBuilder(orginal).reverse().toString();
+    
+    if(reversed.equals(orginal))
+    {
+     System.out.println("It's a palindrome");
+     }
+     
+     else
+     {
+          System.out.println("Not a palindrome");
+     }
+    
+  }
+}
