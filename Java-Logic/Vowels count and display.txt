@@ -20,7 +20,7 @@ public class Main {
     vowelcount++;
     }
     
-    }ume
+    }
     
     System.out.println("\nVowel count is " + vowelcount);
   }
