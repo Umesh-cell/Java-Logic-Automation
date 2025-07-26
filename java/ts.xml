@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="dpsuite" data-provider-thread-count="2" parallel="methods">
+    <test name="dptest">
+        <classes>
+            <class name="ThreadSafety">
+            <methods>
+                <include name="test_one"/>
+                <include name="test_two"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
