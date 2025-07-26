@@ -1,0 +1,10 @@
+public class Main {
+  public static void main(String[] args) {
+    
+    String orginal = "Automation";
+    String reversed =new StringBuilder(orginal).reverse().toString();
+    System.out.println(reversed);
+  }
+}
+
+
